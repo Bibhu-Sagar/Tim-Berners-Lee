@@ -84,7 +84,7 @@ p {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position:fixed;
     top: 10px;
     right: 30px;
     z-index: 10;
@@ -112,3 +112,21 @@ a {
     color:fuchsia;
 }
 
+#videos {
+    text-align: center;
+}
+#Work {
+    text-align: center;
+}
+#writing {
+    text-align: center;
+}
+#contact {
+    text-align: center;
+}
+#hbs {
+    text-align:center;
+}
+html {
+    scroll-behavior: smooth;
+}
